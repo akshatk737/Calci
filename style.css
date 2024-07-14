@@ -1,0 +1,76 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.allclear{
+    color: #eee;
+    background-color: #d4d4d2;
+    font-size: 24px;
+}
+.modulus{
+    color: #eee;
+    background-color: #d4d4d2;
+    font-size: 24px;
+}
+.display{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 24vmin;
+    width: 49vmin;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    background-color: #1c1c1c;
+    color: #eee;
+    font-size: 12vmin;
+    overflow: hidden;
+}
+.display span{
+    padding: 8px;
+}
+.buttons {
+    height: 60vmin;          
+    width: 48vmin;           
+    display: flex;
+    flex-wrap: wrap;
+    padding: 4px;
+    border-end-start-radius: 12px; 
+    border-end-end-radius: 12px;
+    background-color: #1c1c1c;      
+}
+.clear{
+    color: #eee;
+    background-color: #d4d4d2;
+    font-size: 24px;
+}
+.numbers{
+    color: #eee;
+    background-color:  #505050;
+    font-size: 24px;
+}
+.operators{
+    color: #eee;
+    background-color: #ff9500;
+    font-size: 24px;
+
+}
+.equals{
+    color: #eee;
+    background-color: #ff9500;
+    font-size: 24px;
+}
+button {
+    height: calc((60vmin - 2 * 4px) / 5 - 2 * 4px);
+    width: calc((48vmin - 2 * 4px) / 4 - 2 * 4px);      
+    border-radius: 50%;          
+    box-sizing: border-box;
+    margin: 4px;         
+}
+#zero{
+    width: calc((48vmin - 2 * 4px) / 2 - 2 * 4px); 
+    border-radius: 24px;
+}
